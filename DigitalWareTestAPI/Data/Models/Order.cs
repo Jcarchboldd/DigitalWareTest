@@ -1,8 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace DigitalWareTestAPI.Data
+namespace DigitalWareTestAPI.Data.Models
 {
+    [Table("Orders")]
     public class Order
     {
         [Key]
