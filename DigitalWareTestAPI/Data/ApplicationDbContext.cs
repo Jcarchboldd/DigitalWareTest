@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using DigitalWareTestAPI.Data.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace DigitalWareTestAPI.Data
 {
@@ -13,6 +14,19 @@ namespace DigitalWareTestAPI.Data
         {
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
 
+            //EntityTypeConfiguration classes
+
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
+           
+        }
+
+        public DbSet<Customer> Customers => Set<Customer>();
+        public DbSet<Product> Products => Set<Product>();
+        public DbSet<Order> Orders => Set<Order>();
+        public DbSet<Order_Detail> Order_Details => Set<Order_Detail>();
     }
 }
