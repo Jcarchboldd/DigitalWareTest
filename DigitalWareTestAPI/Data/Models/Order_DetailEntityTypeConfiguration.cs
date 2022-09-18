@@ -9,7 +9,6 @@ namespace DigitalWareTestAPI.Data.Models
         {
             builder.ToTable("Order_Details");
             builder.HasKey(x => new {x.OrderID, x.ProductID});
-            builder.Property(x => new {x.OrderID, x.ProductID, x.Quantity, x.UnitPrice}).IsRequired();
             builder
                 .HasOne(x => x.Order)
                 .WithMany(x => x.Order_Details);

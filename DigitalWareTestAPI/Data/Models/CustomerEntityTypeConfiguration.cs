@@ -9,7 +9,6 @@ namespace DigitalWareTestAPI.Data.Models
         {
             builder.ToTable("Customers");
             builder.HasKey(x => x.CustomerID);
-            builder.Property(x => new {x.CustomerID, x.FullName, x.Birthday}).IsRequired();
         }
     }
 }

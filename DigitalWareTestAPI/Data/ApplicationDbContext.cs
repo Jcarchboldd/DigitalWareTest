@@ -18,7 +18,7 @@ namespace DigitalWareTestAPI.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            //EntityTypeConfiguration classes
+            //Set EntityTypeConfiguration classes
 
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
            

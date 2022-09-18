@@ -7,9 +7,8 @@ namespace DigitalWareTestAPI.Data.Models
     {
         public void Configure(EntityTypeBuilder<Order> builder)
         {
-            builder.ToTable("Orders");
+            builder.ToTable("Order");
             builder.HasKey(x => x.OrderID);
-            builder.Property(x => new {x.OrderID, x.CustomerID, x.OrderDate}).IsRequired();
             builder
                 .HasOne(x => x.Customer)
                 .WithMany(x => x.Orders)

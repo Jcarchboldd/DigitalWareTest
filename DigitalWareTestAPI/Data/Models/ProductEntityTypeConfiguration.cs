@@ -9,7 +9,6 @@ namespace DigitalWareTestAPI.Data.Models
         {
             builder.ToTable("Products");
             builder.HasKey(x => x.ProductID);
-            builder.Property(x => new { x.ProductID, x.ProductName, x.UnitsInStock, x.UnitPrice, x.Status }).IsRequired();
         }
     }
 }
