@@ -1,0 +1,12 @@
+<dx-data-grid [dataSource]="ordersDetails"
+              [columnAutoWidth]="true"
+              [repaintChangesOnly]="true"
+              [showBorders]="true">
+  <dxo-paging [pageSize]="5"></dxo-paging>
+
+  <dxi-column dataField="orderID" dataType="number"> </dxi-column>
+  <dxi-column dataField="productID" dataType="number"> </dxi-column>
+  <dxi-column dataField="quantity" dataType="number"> </dxi-column>
+  <dxi-column dataField="unitPrice" dataType="number" format="currency"> </dxi-column>
+
+</dx-data-grid>

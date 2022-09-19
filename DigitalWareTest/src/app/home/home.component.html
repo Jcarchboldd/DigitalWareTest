@@ -1,6 +1,41 @@
-<h1>WorldCities</h1>
-<p>
-  A sample web application to demonstrate
-  how to interact with ASP.NET, Angular,
-  Entity Framework Core and a SQL Database.
-</p>
+<dx-data-grid id="gridContainer"
+              [dataSource]="orders"
+              [showBorders]="true"
+              keyExpr="orderID"
+              [repaintChangesOnly]="true">
+
+  <dxi-column dataField="orderID" dataType="number"> </dxi-column>
+  <dxi-column dataField="customerName" dataType="number"> </dxi-column>
+  <dxi-column dataField="orderDate" dataType="date"> </dxi-column>
+  <dxi-column dataField="amount" dataType="number" format="currency"> </dxi-column>
+  <dxo-summary>
+    <dxi-total-item column="orderID" summaryType="count"></dxi-total-item>
+    <dxi-total-item column="amount"
+                    summaryType="sum"
+                    displayFormat="{0}"
+                    valueFormat="currency">
+
+    </dxi-total-item>
+  </dxo-summary>
+  <dxo-master-detail [enabled]="true" template="orderDetail">
+  </dxo-master-detail>
+
+  <div *dxTemplate="let detail of 'orderDetail'">
+    <!--<dx-data-grid [dataSource]="getDetailGridDataSource(detail.data)"
+                  [columnAutoWidth]="true"
+                  [repaintChangesOnly]="true"
+                  [showBorders]="true">
+      <dxo-paging [pageSize]="5"></dxo-paging>
+
+      <dxi-column dataField="orderID" dataType="number"> </dxi-column>
+      <dxi-column dataField="productID" dataType="number"> </dxi-column>
+      <dxi-column dataField="quantity" dataType="number"> </dxi-column>
+      <dxi-column dataField="unitPrice" dataType="number" format="currency"> </dxi-column>
+
+    </dx-data-grid>-->
+    <app-order-detail [key]="detail.key"></app-order-detail>
+  </div>
+  
+
+</dx-data-grid>
+

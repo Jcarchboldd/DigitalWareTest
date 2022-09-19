@@ -7,7 +7,7 @@ namespace DigitalWareTestAPI.Data.Models
     {
         public void Configure(EntityTypeBuilder<Product> builder)
         {
-            builder.ToTable("Products");
+            builder.ToTable("Product");
             builder.HasKey(x => x.ProductID);
         }
     }

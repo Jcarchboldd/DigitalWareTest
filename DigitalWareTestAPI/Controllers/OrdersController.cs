@@ -24,7 +24,19 @@ namespace DigitalWareTestAPI.Controllers
         {
             try
             {
-                return await _context.Orders.ToListAsync();
+                return await (from o in _context.Orders
+                        join c in _context.Customers on o.CustomerID equals c.CustomerID
+                        join od in _context.Order_Details.GroupBy(p => p.OrderID).Select(p => new Order_Detail { OrderID = p.Key, Quantity = p.Sum(c => c.Quantity), UnitPrice = p.Sum(c => c.UnitPrice) }) on o.OrderID equals od.OrderID
+                        select new Order
+                        {
+                            OrderID = o.OrderID,
+                            CustomerID = o.CustomerID,
+                            OrderDate = o.OrderDate,
+                            CustomerName = c.FullName,
+                            Amount = od.Quantity * od.UnitPrice
+
+                        })
+                        .ToListAsync();
 
             }
             catch (Exception ex)

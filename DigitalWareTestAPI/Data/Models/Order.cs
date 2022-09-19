@@ -19,5 +19,11 @@ namespace DigitalWareTestAPI.Data.Models
 
         public ICollection<Order_Detail>? Order_Details { get; set; }
 
+        [NotMapped]
+        public string CustomerName { get; set; } = null!;
+
+        [NotMapped]
+        public decimal Amount { get; set; }
+
     }
 }
