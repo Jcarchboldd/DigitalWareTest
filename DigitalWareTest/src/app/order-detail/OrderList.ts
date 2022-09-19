@@ -3,5 +3,4 @@ export interface OrderList {
   productID: number;
   quantity: number;
   UnitPrice: number;
-
 }

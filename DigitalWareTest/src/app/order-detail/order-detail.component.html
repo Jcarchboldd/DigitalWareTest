@@ -1,12 +1,33 @@
-<dx-data-grid [dataSource]="ordersDetails"
+<dx-data-grid [dataSource]="dataSource"
               [columnAutoWidth]="true"
               [repaintChangesOnly]="true"
-              [showBorders]="true">
-  <dxo-paging [pageSize]="5"></dxo-paging>
+              [showBorders]="true"
+              (onRowUpdating)="updateRow($event)"
+              (onEditorPreparing)="onEditorPreparing($event)"
+              [attr.data-masterKey]>
 
-  <dxi-column dataField="orderID" dataType="number"> </dxi-column>
-  <dxi-column dataField="productID" dataType="number"> </dxi-column>
-  <dxi-column dataField="quantity" dataType="number"> </dxi-column>
-  <dxi-column dataField="unitPrice" dataType="number" format="currency"> </dxi-column>
+  <dxo-scrolling mode="virtual"></dxo-scrolling>
+  <dxo-editing mode="row"
+               [refreshMode]="refreshMode"
+               [allowAdding]="true"
+               [allowUpdating]="true"
+               [allowDeleting]="true">
+  </dxo-editing>
+
+  <dxi-column dataField="orderID" dataType="number" [allowEditing]="false">
+  </dxi-column>
+  <dxi-column dataField="productID" dataType="number">
+    <dxo-lookup [dataSource]="products"
+                valueExpr="productID"
+                displayExpr="productName">
+    </dxo-lookup>
+    <dxi-validation-rule type="required"></dxi-validation-rule>
+  </dxi-column>
+  <dxi-column dataField="quantity" dataType="number">
+    <dxi-validation-rule type="required"></dxi-validation-rule>
+  </dxi-column>
+  <dxi-column dataField="unitPrice" dataType="number" format="currency">
+    <dxi-validation-rule type="required"></dxi-validation-rule>
+  </dxi-column>
 
 </dx-data-grid>

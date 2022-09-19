@@ -21,18 +21,6 @@
   </dxo-master-detail>
 
   <div *dxTemplate="let detail of 'orderDetail'">
-    <!--<dx-data-grid [dataSource]="getDetailGridDataSource(detail.data)"
-                  [columnAutoWidth]="true"
-                  [repaintChangesOnly]="true"
-                  [showBorders]="true">
-      <dxo-paging [pageSize]="5"></dxo-paging>
-
-      <dxi-column dataField="orderID" dataType="number"> </dxi-column>
-      <dxi-column dataField="productID" dataType="number"> </dxi-column>
-      <dxi-column dataField="quantity" dataType="number"> </dxi-column>
-      <dxi-column dataField="unitPrice" dataType="number" format="currency"> </dxi-column>
-
-    </dx-data-grid>-->
     <app-order-detail [key]="detail.key"></app-order-detail>
   </div>
   

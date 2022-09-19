@@ -50,21 +50,68 @@ namespace DigitalWareTestAPI.Controllers
         }
 
         // POST api/<Order_DetailsController>
-        [HttpPost]
-        public void Post([FromBody] string value)
+        [HttpPost("{id}")]
+        public async Task<IActionResult> Post(int id, Order_Detail order)
         {
+            try
+            {
+                order.OrderID = id;
+                _context.Order_Details.Add(order);
+                await _context.SaveChangesAsync();
+
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+
+                return (BadRequest(ex.Message));
+            }
         }
 
         // PUT api/<Order_DetailsController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPut]
+        public async Task<IActionResult> Put(Order_Detail order)
         {
+            _context.Entry(order).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+
+                return Ok(order);
+
+            }
+            catch (Exception ex)
+            {
+
+                return (BadRequest(ex.Message));
+            }
+
         }
 
         // DELETE api/<Order_DetailsController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpDelete("{id}/{id2}")]
+        public async Task<IActionResult> Delete(int id, int id2)
         {
+            try
+            {
+                var _order = await _context.Order_Details.FindAsync(id, id2);
+
+                if (_order == null)
+                {
+                    return NotFound();
+                }
+
+                _context.Order_Details.Remove(_order);
+                await _context.SaveChangesAsync();
+
+                return Ok();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
     }
 }

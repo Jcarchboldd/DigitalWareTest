@@ -16,7 +16,7 @@ namespace DigitalWareTestAPI.Data.Models
         public int UnitsInStock { get; set; }
 
         [Required]
-        public int UnitPrice { get; set; }
+        public decimal UnitPrice { get; set; }
 
         [Required]
         public bool Status { get; set; }
