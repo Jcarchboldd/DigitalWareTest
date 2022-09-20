@@ -22,6 +22,11 @@ database diagram:
 DB Design.png
 ```
 
+video app:
+```
+DigitalWareTest App.mp4
+```
+
 ## Queries
 
 Obtener la lista de precios de todos los productos:
