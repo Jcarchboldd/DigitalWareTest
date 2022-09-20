@@ -5,17 +5,23 @@ Prueba técnica DigitalWare
 * Angular 13.0.1
 * Net core 6.0
 
-## Attached scripts
+## Attached scripts and docs
 
 database script:
 ```
-DBDigitalWareTest
+DBDigitalWareTest.sql
 ```
 
 query script:
 ```
-SQLQueryDigitalWare
+SQLQueryDigitalWare.sql
 ```
+
+database diagram:
+```
+DB Design.png
+```
+
 ## Queries
 
 Obtener la lista de precios de todos los productos:
