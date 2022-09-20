@@ -22,7 +22,7 @@ database diagram:
 DB Design.png
 ```
 
-video app:
+video de la app:
 ```
 DigitalWareTest App.mp4
 ```
