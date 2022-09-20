@@ -8,6 +8,11 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { DxDataGridModule, DxSliderModule } from 'devextreme-angular';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { OrderDetailComponent } from './order-detail/order-detail.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { MatTableModule } from '@angular/material/table';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
@@ -23,8 +28,12 @@ import { OrderDetailComponent } from './order-detail/order-detail.component';
     BrowserModule,
     DxDataGridModule,
     HttpClientModule,
-    DxSliderModule
-
+    DxSliderModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatIconModule,
+    MatTableModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

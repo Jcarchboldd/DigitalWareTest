@@ -1,4 +1,4 @@
-import { Component, NgModule, AfterViewInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { environment } from './../../environments/environment';
 import { Order } from './Order';
@@ -18,8 +18,6 @@ export class HomeComponent {
       .subscribe(result => {
         this.orders = result;
       }, error => console.error(error));
-
-
   }
 
  

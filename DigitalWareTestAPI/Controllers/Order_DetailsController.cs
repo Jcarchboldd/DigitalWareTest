@@ -56,6 +56,14 @@ namespace DigitalWareTestAPI.Controllers
             try
             {
                 order.OrderID = id;
+
+                var obj = await _context.Order_Details.FindAsync(order.OrderID, order.ProductID);
+
+                if(obj != null)
+                {
+                    return BadRequest("Ya existe ese producto en la orden");
+                }
+          
                 _context.Order_Details.Add(order);
                 await _context.SaveChangesAsync();
 
