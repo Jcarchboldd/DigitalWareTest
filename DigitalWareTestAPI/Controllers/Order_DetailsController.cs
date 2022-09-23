@@ -77,9 +77,11 @@ namespace DigitalWareTestAPI.Controllers
         }
 
         // PUT api/<Order_DetailsController>/5
-        [HttpPut]
-        public async Task<IActionResult> Put(Order_Detail order)
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Put(int id, Order_Detail order)
         {
+
+            order.OrderID = id;
             _context.Entry(order).State = EntityState.Modified;
 
             try

@@ -11,7 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer("Data Source=localhost;Initial Catalog=DigitalWare;Integrated Security=True;Trusted_Connection=True;MultipleActiveResultSets=true;"));
+    options.UseSqlServer("Server=localhost\\SQLEXPRESS;Initial Catalog=DigitalWare;Integrated Security=True;Trusted_Connection=True;MultipleActiveResultSets=true;"));
 
 var app = builder.Build();
 
