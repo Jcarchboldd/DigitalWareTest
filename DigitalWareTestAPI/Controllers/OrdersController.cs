@@ -1,7 +1,6 @@
-﻿using DigitalWareTestAPI.Data;
-using DigitalWareTestAPI.Data.Models;
+﻿using DigitalWareTestAPI.DTO;
+using DigitalWareTestAPI.Services;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -11,32 +10,20 @@ namespace DigitalWareTestAPI.Controllers
     [ApiController]
     public class OrdersController : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
+        public readonly IOrderRepository _repository;
 
-        public OrdersController(ApplicationDbContext context)
+        public OrdersController(IOrderRepository repository)
         {
-            _context = context;
+            _repository = repository;
         }
 
         // GET: api/<OrdersController>
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Order>>> Get()
+        public async Task<ActionResult<IEnumerable<OrderDTO>>> Get()
         {
             try
-            {
-                return await (from o in _context.Orders
-                        join c in _context.Customers on o.CustomerID equals c.CustomerID
-                        join od in _context.Order_Details.GroupBy(p => p.OrderID).Select(p => new Order_Detail { OrderID = p.Key, Quantity = p.Sum(c => c.Quantity), UnitPrice = p.Sum(c => c.UnitPrice) }) on o.OrderID equals od.OrderID
-                        select new Order
-                        {
-                            OrderID = o.OrderID,
-                            CustomerID = o.CustomerID,
-                            OrderDate = o.OrderDate,
-                            CustomerName = c.FullName,
-                            Amount = od.Quantity * od.UnitPrice
-
-                        })
-                        .ToListAsync();
+            {              
+                return await _repository.GetOrders();
 
             }
             catch (Exception ex)

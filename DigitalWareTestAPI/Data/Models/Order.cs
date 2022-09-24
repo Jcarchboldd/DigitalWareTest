@@ -3,7 +3,6 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DigitalWareTestAPI.Data.Models
 {
-    [Table("Orders")]
     public class Order
     {
         [Key]
@@ -15,15 +14,10 @@ namespace DigitalWareTestAPI.Data.Models
         [Required]
         public DateTime OrderDate { get; set; }
 
-        public Customer? Customer { get; set; }
+        public Customer Customer { get; set; } = null!;
 
-        public ICollection<Order_Detail>? Order_Details { get; set; }
+        public ICollection<Order_Detail> Order_Details { get; set; } = null!;
 
-        [NotMapped]
-        public string CustomerName { get; set; } = null!;
-
-        [NotMapped]
-        public decimal Amount { get; set; }
 
     }
 }

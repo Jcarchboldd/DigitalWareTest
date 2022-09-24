@@ -24,9 +24,9 @@ namespace DigitalWareTestAPI.Data
            
         }
 
-        public DbSet<Customer> Customers => Set<Customer>();
-        public DbSet<Product> Products => Set<Product>();
-        public DbSet<Order> Orders => Set<Order>();
-        public DbSet<Order_Detail> Order_Details => Set<Order_Detail>();
+        public DbSet<Customer> Customer => Set<Customer>();
+        public DbSet<Product> Product => Set<Product>();
+        public DbSet<Order> Order => Set<Order>();
+        public DbSet<Order_Detail> Order_Detail => Set<Order_Detail>();
     }
 }

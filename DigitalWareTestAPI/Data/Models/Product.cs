@@ -3,7 +3,6 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DigitalWareTestAPI.Data.Models
 {
-    [Table("Products")]
     public class Product
     {
         [Key]

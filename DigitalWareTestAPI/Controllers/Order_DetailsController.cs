@@ -1,4 +1,5 @@
-﻿using DigitalWareTestAPI.Data;
+﻿using AutoMapper;
+using DigitalWareTestAPI.Data;
 using DigitalWareTestAPI.Data.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -13,10 +14,12 @@ namespace DigitalWareTestAPI.Controllers
     public class Order_DetailsController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
+        public readonly IMapper _mapper;
 
-        public Order_DetailsController(ApplicationDbContext context)
+        public Order_DetailsController(ApplicationDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
         // GET: api/<Order_DetailsController>
@@ -24,8 +27,8 @@ namespace DigitalWareTestAPI.Controllers
         public async Task<ActionResult<IEnumerable<Order_Detail>>> Get()
         {
             try
-            {
-                return await _context.Order_Details.ToListAsync();
+            {   
+                return await _context.Order_Detail.ToListAsync();
             }
             catch (Exception ex)
             {
@@ -40,7 +43,7 @@ namespace DigitalWareTestAPI.Controllers
         {
             try
             {
-                return await _context.Order_Details.Where(p => p.OrderID == id).ToListAsync();
+                return await _context.Order_Detail.Where(p => p.OrderID == id).ToListAsync();
             }
             catch (Exception ex)
             {
@@ -57,14 +60,14 @@ namespace DigitalWareTestAPI.Controllers
             {
                 order.OrderID = id;
 
-                var obj = await _context.Order_Details.FindAsync(order.OrderID, order.ProductID);
+                var obj = await _context.Order_Detail.FindAsync(order.OrderID, order.ProductID);
 
                 if(obj != null)
                 {
                     return BadRequest("Ya existe ese producto en la orden");
                 }
           
-                _context.Order_Details.Add(order);
+                _context.Order_Detail.Add(order);
                 await _context.SaveChangesAsync();
 
                 return Ok();
@@ -105,14 +108,14 @@ namespace DigitalWareTestAPI.Controllers
         {
             try
             {
-                var _order = await _context.Order_Details.FindAsync(id, id2);
+                var _order = await _context.Order_Detail.FindAsync(id, id2);
 
                 if (_order == null)
                 {
                     return NotFound();
                 }
 
-                _context.Order_Details.Remove(_order);
+                _context.Order_Detail.Remove(_order);
                 await _context.SaveChangesAsync();
 
                 return Ok();
