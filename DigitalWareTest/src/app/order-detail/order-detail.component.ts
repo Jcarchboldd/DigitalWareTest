@@ -13,7 +13,7 @@ import { ProductList } from './ProductList';
 })
 export class OrderDetailComponent implements AfterViewInit {
   @Input() OrderId!: number;
-  ordersDetails: any = {};
+  ordersDetails: OrderList[] = [];
   dataSource: any;
   productData: any;
   products: any = {};
@@ -37,11 +37,9 @@ export class OrderDetailComponent implements AfterViewInit {
     }
   }
 
-  async ngAfterViewInit() {
+  ngAfterViewInit() {
 
     this.refresh();
-
-    /*this.products = await this.orderDetailService.getProduct();*/
 
     this.orderDetailService.getProduct()
       .subscribe((data: Result<ProductList>) => {
@@ -86,6 +84,8 @@ export class OrderDetailComponent implements AfterViewInit {
 
   private refresh()
   {
+    this.ordersDetails = [];
+
     this.orderDetailService.get(this.OrderId)
       .subscribe((data: Result<OrderList>) => {
         this.ordersDetails = data.items;
