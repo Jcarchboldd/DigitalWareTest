@@ -7,22 +7,22 @@ Prueba técnica DigitalWare
 
 ## Attached scripts and docs
 
-database script:
+Database script:
 ```
 DBDigitalWareTest.sql
 ```
 
-query script:
+Query script:
 ```
 SQLQueryDigitalWare.sql
 ```
 
-database diagram:
+Database diagram:
 ```
 DB Design.png
 ```
 
-video de la app:
+Video de la app:
 ```
 DigitalWareTest App.mp4
 ```
