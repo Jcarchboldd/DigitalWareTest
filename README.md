@@ -33,6 +33,7 @@ DigitalWareTest App.mp4
 
 ## Layered architecture in ASP.NET Core 6 Web API
 
+```
 └───Backend
         └───APL
             ├───Properties
@@ -51,4 +52,5 @@ DigitalWareTest App.mp4
             └───Cross-Cutting
                 ├───Common
                 └───DTO
+```
            
