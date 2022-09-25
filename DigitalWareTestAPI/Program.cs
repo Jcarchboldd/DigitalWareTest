@@ -1,7 +1,7 @@
+using DigitalWare.Cross_cutting.DTO;
 using DigitalWare.DAL.Repositories;
 using DigitalWare.Domain.Contrats;
 using DigitalWare.Domain.Data;
-using DigitalWare.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,10 +18,13 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer("Server=localhost\\SQLEXPRESS;Initial Catalog=DigitalWare;Integrated Security=True;Trusted_Connection=True;MultipleActiveResultSets=true;"));
 
 //Order injection
-builder.Services.AddScoped<IOrderRepository, EFOrderRepository>();
+builder.Services.AddScoped<IOrderRepository<OrderDTO>, EFOrderRepository>();
 
 //Details injection
-builder.Services.AddScoped<IDetailsRepository<Order_Detail>, EFDetailRepository>();
+builder.Services.AddScoped<IDetailsRepository<DetailsDTO>, EFDetailRepository>();
+
+//Products injection
+builder.Services.AddScoped<IProductRepository<ProductsListDTO>, EFProductRepository>();
 
 var app = builder.Build();
 

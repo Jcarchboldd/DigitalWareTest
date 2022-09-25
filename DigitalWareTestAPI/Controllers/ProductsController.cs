@@ -1,7 +1,8 @@
-﻿using DigitalWare.Domain.Data;
-using DigitalWare.Domain.Models;
+﻿using DigitalWare.Cross_cutting.Common;
+using DigitalWare.Cross_cutting.DTO;
+using DigitalWare.Domain.Contrats;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -11,26 +12,18 @@ namespace DigitalWareTestAPI.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
+        public readonly IProductRepository<ProductsListDTO> _repository;
 
-        public ProductsController(ApplicationDbContext context)
+        public ProductsController(IProductRepository<ProductsListDTO> repository)
         {
-            _context = context;
+            _repository = repository;
         }
 
-        // GET: api/<ProductsController>
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Product>>> Get()
+        [Route("GetProducts")]
+        public async Task<MessageResult<ProductsListDTO>> GetProducts()
         {
-            try
-            {
-                return await _context.Product.ToListAsync();
-            }
-            catch (Exception ex)
-            {
-
-                return (BadRequest(ex.Message));
-            }
+            return await _repository.GetProducts();
         }
 
     }

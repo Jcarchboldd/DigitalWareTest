@@ -1,42 +1,41 @@
-﻿using DigitalWare.Cross_cutting.Common;
+﻿using AutoMapper;
+using DigitalWare.Cross_cutting.Common;
+using DigitalWare.Cross_cutting.DTO;
 using DigitalWare.Domain.Contrats;
 using DigitalWare.Domain.Data;
 using DigitalWare.Domain.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DigitalWare.DAL.Repositories
 {
-    public class EFDetailRepository: IDetailsRepository<Order_Detail>
+    public class EFDetailRepository: IDetailsRepository<DetailsDTO>
     {
         private readonly ApplicationDbContext _context;
-        readonly List<Order_Detail> list = new();
+        private readonly IMapper _mapper;
 
-        public EFDetailRepository(ApplicationDbContext context)
+        public EFDetailRepository(ApplicationDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
-        public async Task<MessageResult<Order_Detail>> GetById(int id)
+        public async Task<MessageResult<DetailsDTO>> GetById(int id)
         {
             try
             {
                 var details = await _context.Order_Detail.Where(p => p.OrderID == id).ToListAsync();
+                var _details = _mapper.Map<List<DetailsDTO>>(details);
 
-                return new MessageResult<Order_Detail>(error: false, responseMessage: "La información se ha cargado correctamente", details);
+                return new MessageResult<DetailsDTO>(error: false, items: _details);
             }
             catch (Exception ex)
             {
 
-                return new MessageResult<Order_Detail>(error: true, responseMessage: ex.Message, list);
+                return new MessageResult<DetailsDTO>(error: true, responseMessage: ex.Message);
             }
         }
 
-        public async Task<MessageResult<Order_Detail>> PostDetail(int id, Order_Detail order)
+        public async Task<MessageResult<DetailsDTO>> PostDetail(int id, DetailsDTO order)
         {
             
             try
@@ -47,18 +46,63 @@ namespace DigitalWare.DAL.Repositories
 
                 if (obj != null)
                 {
-                    return new MessageResult<Order_Detail>(error: true, responseMessage: "Ya existe ese producto en la orden", list);
+                    throw new ArgumentException(nameof(obj));
                 }
 
-                _context.Order_Detail.Add(order);
+                var _order = _mapper.Map<Order_Detail>(order);
+                _context.Order_Detail.Add(_order);
                 await _context.SaveChangesAsync();
 
-                return new MessageResult<Order_Detail>(error: false, responseMessage: "La información se ha cargado correctamente", list);
+                return new MessageResult<DetailsDTO>(error: false);
             }
             catch (Exception ex)
             {
-                return new MessageResult<Order_Detail>(error: true, responseMessage: ex.Message, list);
+                return new MessageResult<DetailsDTO>(error: true, responseMessage: ex.Message);
             }
         }
+
+        public async Task<MessageResult<DetailsDTO>> PutDetail(DetailsDTO order)
+        {
+
+            var _order = _mapper.Map<Order_Detail>(order);
+            _context.Entry(_order).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+
+                return new MessageResult<DetailsDTO>(error: false);
+
+            }
+            catch (Exception ex)
+            {
+                return new MessageResult<DetailsDTO>(error: true, responseMessage: ex.Message);
+            }
+        }
+
+        public async Task<MessageResult<DetailsDTO>> DeleteDetail(int id, int id2)
+        {
+
+            try
+            {
+                var _order = await _context.Order_Detail.FindAsync(id, id2);
+
+                if (_order == null)
+                {
+                    throw new ArgumentNullException(nameof(id));
+                }
+
+                _context.Order_Detail.Remove(_order);
+                await _context.SaveChangesAsync();
+
+                return new MessageResult<DetailsDTO>(error: false);
+            }
+            catch (Exception ex)
+            {
+
+                return new MessageResult<DetailsDTO>(error: true, responseMessage: ex.Message);
+            }
+        }
+
     }
 }

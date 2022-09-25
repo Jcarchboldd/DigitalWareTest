@@ -8,6 +8,9 @@ namespace DigitalWareTestAPI.DTO.Profiles
     {
         public OrderProfile()
         {
+            CreateMap<Order_Detail, DetailsDTO>().ReverseMap();
+            CreateMap<Product, ProductsListDTO>().ReverseMap();
+
             CreateMap<Order, OrderDTO>()
                 .ForMember(
                     dest => dest.OrderID,

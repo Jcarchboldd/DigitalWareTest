@@ -1,22 +1,24 @@
-﻿using DigitalWare.Cross_cutting.Common;
+﻿using AutoMapper;
+using DigitalWare.Cross_cutting.Common;
+using DigitalWare.Cross_cutting.DTO;
 using DigitalWare.Domain.Contrats;
 using DigitalWare.Domain.Data;
-using DigitalWare.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace DigitalWare.DAL.Repositories
 {
-    public class EFOrderRepository : IOrderRepository
+    public class EFOrderRepository : IOrderRepository<OrderDTO>
     {
         private readonly ApplicationDbContext _context;
-        readonly List<Order> list = new();
+        private readonly IMapper _mapper;
 
-        public EFOrderRepository(ApplicationDbContext context)
+        public EFOrderRepository(ApplicationDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
-        public async Task<MessageResult<Order>> GetOrders()
+        public async Task<MessageResult<OrderDTO>> GetOrders()
         {
             try
             {
@@ -25,12 +27,13 @@ namespace DigitalWare.DAL.Repositories
                     .Include(p => p.Customer)
                     .Select(p => p).ToListAsync();
 
-                return new MessageResult<Order>(error: false, responseMessage: "La información se ha cargado correctamente", orders);
+                var _orders = _mapper.Map<List<OrderDTO>>(orders);
+                return new MessageResult<OrderDTO>(error: false, items: _orders);
 
             }
             catch (Exception ex)
             {
-                return new MessageResult<Order>(error: true, responseMessage: ex.Message, list);
+                return new MessageResult<OrderDTO>(error: true, responseMessage: ex.Message);
             }
 
         }

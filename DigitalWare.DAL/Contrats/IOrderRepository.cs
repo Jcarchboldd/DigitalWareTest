@@ -3,8 +3,8 @@ using DigitalWare.Domain.Models;
 
 namespace DigitalWare.Domain.Contrats
 {
-    public interface IOrderRepository
+    public interface IOrderRepository<T>
     {
-        public Task<MessageResult<Order>> GetOrders();
+        public Task<MessageResult<T>> GetOrders();
     }
 }

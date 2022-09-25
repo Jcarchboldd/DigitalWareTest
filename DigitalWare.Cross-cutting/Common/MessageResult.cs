@@ -8,16 +8,16 @@ namespace DigitalWare.Cross_cutting.Common
 {
     public class MessageResult<T>
     {
-        public MessageResult(bool error, string responseMessage, List<T> items)
+
+        public MessageResult(bool error, List<T>? items = null, string? responseMessage = null)
         {
-            Items = items;
             ResponseMessage = responseMessage;
             Error = error;
-
+            Items = items ?? new List<T>();
         }
 
-        public List<T> Items { get; set; } = null!;
-        public string ResponseMessage { get; set; }
+        public List<T> Items { get; set; }
+        public string? ResponseMessage { get; set; }
 
         public bool Error { get; set; }
 

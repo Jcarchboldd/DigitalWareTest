@@ -1,9 +1,12 @@
-<dx-data-grid [dataSource]="dataSource"
+<dx-data-grid [dataSource]="ordersDetails"
               [columnAutoWidth]="true"
               [repaintChangesOnly]="true"
               [showBorders]="true"
-              (onRowUpdating)="updateRow($event)"
+              (onRowRemoved)="onRowRemoved($event)"
               (onEditorPreparing)="onEditorPreparing($event)"
+              (onRowInserted)="onRowInserted($event)"
+              (onSaved)="onSaved($event)"
+              (onRowUpdated)="onRowUpdated($event)"
               [attr.data-masterKey]>
 
   <dxo-scrolling mode="virtual"></dxo-scrolling>

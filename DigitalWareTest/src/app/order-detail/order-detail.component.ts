@@ -1,9 +1,10 @@
-import { Component, Input, AfterViewInit } from '@angular/core';
-import {HttpClient} from '@angular/common/http';
+import { Component, Input, AfterViewInit, OnInit } from '@angular/core';
 import CustomStore from 'devextreme/data/custom_store';
 import { OrderDetailService } from './order-detail.service';
 import { OrderList } from './OrderList';
 import { Result } from '../common/Result';
+import { ProductList } from './ProductList';
+
 
 @Component({
   selector: 'app-order-detail',
@@ -16,25 +17,20 @@ export class OrderDetailComponent implements AfterViewInit {
   dataSource: any;
   productData: any;
   products: any = {};
+  message?: string;
+  validator: boolean = false;
 
   refreshModes: string[];
   refreshMode: string;
   requests: string[] = [];
 
-  constructor(private httpClient: HttpClient, private orderDetailService: OrderDetailService) {
+  constructor(private orderDetailService: OrderDetailService) {
     this.refreshMode = 'reshape';
     this.refreshModes = ['full', 'reshape', 'repaint'];
 
   }
 
-  // Por defecto el dx-data-grid no devuelve al CustomStore todos los valores de la fila
-  // por lo que se require forzarlo a enviarlos
-  updateRow(options: { newData: any; oldData: any; }) {
-    options.newData = Object.assign(options.oldData, options.newData);
-  }
-
-  // Dado que el Id del producto hace parte de una llave compuesta con el OrderID, se requuere evitar que se
-  // se pueda editar la celda; pero que si permita escoger al momento de agregar un nuevo registro
+  // Evita modificar el producto con la fila en edición
   onEditorPreparing(e: { dataField: string; row: { isNewRow: boolean; }; editorOptions: { readOnly: boolean; }; }) {
     if (e.dataField == 'productID' && e.row.isNewRow != true) {
       e.editorOptions.readOnly = true;
@@ -43,28 +39,15 @@ export class OrderDetailComponent implements AfterViewInit {
 
   async ngAfterViewInit() {
 
-    await this.orderDetailService.get(this.OrderId)
-      .subscribe((data: Result<OrderList>) => {
-        this.ordersDetails = data.items;
+    this.refresh();
+
+    /*this.products = await this.orderDetailService.getProduct();*/
+
+    this.orderDetailService.getProduct()
+      .subscribe((data: Result<ProductList>) => {
+        this.products = data.items;
       });
 
-    this.products = await this.orderDetailService.getProduct();
-
-    //Configuración del dataSource
-    this.dataSource = new CustomStore({
-      key: 'productID',
-      load: (loadOptions: any) => this.ordersDetails,
-      insert: (values) => this.orderDetailService.sendRequest('POST', {
-        values: JSON.stringify(values),
-      }, this.OrderId),
-      update: (key, values) => this.orderDetailService.sendRequest('PUT', {
-        key,
-        values: JSON.stringify(values),
-      }, this.OrderId),
-      remove: (key) => this.orderDetailService.sendRequest('DELETE', '', this.OrderId, key)
-    });
-
-    // dataSource del dropdown de los productos
     this.productData = {
       paginate: true,
       store: new CustomStore({
@@ -74,6 +57,39 @@ export class OrderDetailComponent implements AfterViewInit {
       }),
     };
 
+  }
+
+  onRowInserted(event: { data: any; }) {
+    this.orderDetailService.post(event.data, this.OrderId).subscribe((data: Result<OrderList>) => {
+      this.message = data.ResponseMessage;
+      this.validator = data.Error;
+    });
+  }
+
+  onRowUpdated(event: { data: any; }) {
+    this.orderDetailService.put(event.data).subscribe((data: Result<OrderList>) => {
+      this.message = data.ResponseMessage;
+      this.validator = data.Error;
+    });
+  }
+
+  onRowRemoved(event: { data: any; }) {
+    this.orderDetailService.delete(event.data).subscribe((data: Result<OrderList>) => {
+      this.message = data.ResponseMessage;
+      this.validator = data.Error;
+    });
+  }
+
+  onSaved(event: { data: any; }) {
+    this.refresh();
+  }
+
+  private refresh()
+  {
+    this.orderDetailService.get(this.OrderId)
+      .subscribe((data: Result<OrderList>) => {
+        this.ordersDetails = data.items;
+      });
   }
 
 }

@@ -12,10 +12,10 @@ namespace DigitalWareTestAPI.Controllers
     [ApiController]
     public class OrdersController : ControllerBase
     {
-        public readonly IOrderRepository _repository;
+        public readonly IOrderRepository<OrderDTO> _repository;
         public readonly IMapper _mapper;
 
-        public OrdersController(IOrderRepository repository, IMapper mapper)
+        public OrdersController(IOrderRepository<OrderDTO> repository, IMapper mapper)
         {
             _repository = repository;
             _mapper = mapper;
@@ -25,9 +25,8 @@ namespace DigitalWareTestAPI.Controllers
         [Route("GetOrders")]
         public async Task<MessageResult<OrderDTO>> Get()
         {
-            var result = await _repository.GetOrders();
+            return await _repository.GetOrders();
 
-            return  new MessageResult<OrderDTO>(result.Error, result.ResponseMessage, result.Items.Select(p => _mapper.Map<OrderDTO>(p)).ToList());
         }
 
       

@@ -1,5 +1,4 @@
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
 import { environment } from '../../environments/environment';
 
 export abstract class BaseServiceOrders<T> {
@@ -7,7 +6,7 @@ export abstract class BaseServiceOrders<T> {
     protected http: HttpClient) {
   }
 
-  protected abstract get(orderId: number): any;
+  protected abstract get(): any;
 
   protected getUrl(url: string) {
     return environment.baseUrl + url;

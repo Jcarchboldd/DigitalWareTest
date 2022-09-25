@@ -10,6 +10,9 @@ namespace DigitalWare.DAL.ModelConfigurations
         public void Configure(EntityTypeBuilder<Order_Detail> builder)
         {
             builder.HasKey(x => new { x.OrderID, x.ProductID });
+            builder.Property(x => x.Quantity).IsRequired();
+            builder.Property(x => x.UnitPrice).IsRequired();
+            
         }
     }
 }
