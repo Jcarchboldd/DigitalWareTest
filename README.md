@@ -8,24 +8,47 @@ Prueba técnica DigitalWare
 ## Attached scripts and docs
 
 Database script:
+
 ```
 DBDigitalWareTest.sql
 ```
 
 Query script:
+
 ```
 SQLQueryDigitalWare.sql
 ```
 
 Database diagram:
+
 ```
 DB Design.png
 ```
 
 Video de la app:
+
 ```
 DigitalWareTest App.mp4
 ```
 
+## Layered architecture in ASP.NET Core 6 Web API
 
-
+└───Backend
+        └───APL
+            ├───Properties
+            ├───Controllers
+            └───DTO
+            |     └───Profiles
+            ├───DAL
+            │   └───Repositories
+            │   
+            ├───Domain
+            │   └───Contrats
+            │       ├───Contrats
+            │       ├───Data
+            │       ├───ModelConfigurations
+            │       └───Models
+            └───Cross-Cutting
+                ├───Common
+                └───DTO
+           
