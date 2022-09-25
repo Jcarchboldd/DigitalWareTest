@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { BaseService } from '../services/base.service.details';
+import { BaseService } from '../../services/base.service.details';
 import { Observable, lastValueFrom } from 'rxjs';
-import { OrderList } from './OrderList';
-import { ProductList } from './ProductList';
-import { Result } from '../common/Result';
+import { OrderList } from '../Model/OrderList';
+import { ProductList } from '../ProductList';
+import { Result } from '../../common/Result';
 
 @Injectable({
   providedIn: 'root',

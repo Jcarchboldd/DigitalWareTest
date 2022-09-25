@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 
-namespace DigitalWare.DAL.ModelConfigurations
+namespace DigitalWare.Domain.ModelConfigurations
 {
     public class Order_DetailEntityTypeConfiguration : IEntityTypeConfiguration<Order_Detail>
     {
@@ -12,7 +12,7 @@ namespace DigitalWare.DAL.ModelConfigurations
             builder.HasKey(x => new { x.OrderID, x.ProductID });
             builder.Property(x => x.Quantity).IsRequired();
             builder.Property(x => x.UnitPrice).IsRequired();
-            
+
         }
     }
 }

@@ -1,7 +1,7 @@
 import { Component, Input, AfterViewInit, OnInit } from '@angular/core';
 import CustomStore from 'devextreme/data/custom_store';
-import { OrderDetailService } from './order-detail.service';
-import { OrderList } from './OrderList';
+import { OrderDetailService } from './Service/order-detail.service';
+import { OrderList } from './Model/OrderList';
 import { Result } from '../common/Result';
 import { ProductList } from './ProductList';
 

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { Order } from './Order';
+import { Order } from './Model/Order';
 import { Result } from '../common/Result';
-import { OrderService } from './order.service';
+import { OrderService } from './Service/order.service';
 
 @Component({
   selector: 'app-home',

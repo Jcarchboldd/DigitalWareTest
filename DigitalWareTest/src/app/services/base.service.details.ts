@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { environment } from '../../environments/environment';
 import { Result } from '../common/Result';
-import { OrderList } from '../order-detail/OrderList';
+import { OrderList } from '../order-detail/Model/OrderList';
 
 export abstract class BaseService<T> {
   constructor(

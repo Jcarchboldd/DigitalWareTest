@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
-import { BaseServiceOrders } from '../services/base.service.orders';
+import { BaseServiceOrders } from '../../services/base.service.orders';
 
-import { Order } from './Order';
+import { Order } from '../Model/Order';
 import { Observable } from 'rxjs';
 
 @Injectable({
