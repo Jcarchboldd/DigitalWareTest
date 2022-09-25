@@ -1,5 +1,7 @@
-﻿using DigitalWareTestAPI.DTO;
-using DigitalWareTestAPI.Services;
+﻿using AutoMapper;
+using DigitalWare.Cross_cutting.Common;
+using DigitalWare.Cross_cutting.DTO;
+using DigitalWare.Domain.Contrats;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -11,26 +13,21 @@ namespace DigitalWareTestAPI.Controllers
     public class OrdersController : ControllerBase
     {
         public readonly IOrderRepository _repository;
+        public readonly IMapper _mapper;
 
-        public OrdersController(IOrderRepository repository)
+        public OrdersController(IOrderRepository repository, IMapper mapper)
         {
             _repository = repository;
+            _mapper = mapper;
         }
 
-        // GET: api/<OrdersController>
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<OrderDTO>>> Get()
+        [Route("GetOrders")]
+        public async Task<MessageResult<OrderDTO>> Get()
         {
-            try
-            {              
-                return await _repository.GetOrders();
+            var result = await _repository.GetOrders();
 
-            }
-            catch (Exception ex)
-            {
-
-                return (BadRequest(ex.Message));
-            }
+            return  new MessageResult<OrderDTO>(result.Error, result.ResponseMessage, result.Items.Select(p => _mapper.Map<OrderDTO>(p)).ToList());
         }
 
       

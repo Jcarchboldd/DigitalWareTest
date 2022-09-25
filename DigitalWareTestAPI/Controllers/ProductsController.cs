@@ -1,5 +1,5 @@
-﻿using DigitalWareTestAPI.Data;
-using DigitalWareTestAPI.Data.Models;
+﻿using DigitalWare.Domain.Data;
+using DigitalWare.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 

@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
-using DigitalWareTestAPI.Data;
-using DigitalWareTestAPI.Data.Models;
+using DigitalWare.Cross_cutting.Common;
+using DigitalWare.Domain.Contrats;
+using DigitalWare.Domain.Data;
+using DigitalWare.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,68 +17,25 @@ namespace DigitalWareTestAPI.Controllers
     {
         private readonly ApplicationDbContext _context;
         public readonly IMapper _mapper;
+        public readonly IDetailsRepository<Order_Detail> _repository;
 
-        public Order_DetailsController(ApplicationDbContext context, IMapper mapper)
+        public Order_DetailsController(ApplicationDbContext context, IMapper mapper, IDetailsRepository<Order_Detail> repository)
         {
             _context = context;
             _mapper = mapper;
+            _repository = repository;
         }
 
-        // GET: api/<Order_DetailsController>
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<Order_Detail>>> Get()
-        {
-            try
-            {   
-                return await _context.Order_Detail.ToListAsync();
-            }
-            catch (Exception ex)
-            {
-
-                return (BadRequest(ex.Message));
-            }
-        }
-
-        // GET api/<Order_DetailsController>/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<IEnumerable<Order_Detail>>> Get(int id)
+        public async Task<MessageResult<Order_Detail>> Get(int id)
         {
-            try
-            {
-                return await _context.Order_Detail.Where(p => p.OrderID == id).ToListAsync();
-            }
-            catch (Exception ex)
-            {
-
-                return (BadRequest(ex.Message));
-            }
+            return await _repository.GetById(id);
         }
 
-        // POST api/<Order_DetailsController>
         [HttpPost("{id}")]
-        public async Task<IActionResult> Post(int id, Order_Detail order)
+        public async Task<MessageResult<Order_Detail>> Post(int id, Order_Detail order)
         {
-            try
-            {
-                order.OrderID = id;
-
-                var obj = await _context.Order_Detail.FindAsync(order.OrderID, order.ProductID);
-
-                if(obj != null)
-                {
-                    return BadRequest("Ya existe ese producto en la orden");
-                }
-          
-                _context.Order_Detail.Add(order);
-                await _context.SaveChangesAsync();
-
-                return Ok();
-            }
-            catch (Exception ex)
-            {
-
-                return (BadRequest(ex.Message));
-            }
+            return await _repository.PostDetail(id, order);
         }
 
         // PUT api/<Order_DetailsController>/5

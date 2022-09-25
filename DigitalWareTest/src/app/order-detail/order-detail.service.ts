@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
-import { BaseService } from '../base.service';
+import { BaseService } from '../services/base.service.details';
 import { Observable, lastValueFrom } from 'rxjs';
 
 import { OrderList } from './OrderList';
@@ -21,9 +21,9 @@ export class OrderDetailService
 
   }
 
-  get(orderId: number) {
+  get(orderId: number): Observable<any> {
     var url = this.getUrl("api/Order_Details/" + orderId);
-    return this.http.get<OrderList[]>(url).toPromise();
+    return this.http.get<OrderList[]>(url);
   }
 
   getProduct() {

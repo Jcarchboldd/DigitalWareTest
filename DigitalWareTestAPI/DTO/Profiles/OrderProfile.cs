@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
-using DigitalWareTestAPI.Data.Models;
+using DigitalWare.Cross_cutting.DTO;
+using DigitalWare.Domain.Models;
 
 namespace DigitalWareTestAPI.DTO.Profiles
 {

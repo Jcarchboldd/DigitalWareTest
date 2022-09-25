@@ -1,9 +1,7 @@
 import { Component } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { environment } from './../../environments/environment';
 import { Order } from './Order';
-
-
+import { Result } from '../common/Result';
+import { OrderService } from './order.service';
 
 @Component({
   selector: 'app-home',
@@ -13,11 +11,13 @@ import { Order } from './Order';
 export class HomeComponent {
   public orders: any = {};
 
-  constructor(private httpClient: HttpClient) {
-    this.httpClient.get<Order[]>(environment.baseUrl + 'api/Orders')
-      .subscribe(result => {
-        this.orders = result;
-      }, error => console.error(error));
+  constructor(orderService: OrderService) {
+
+    orderService.get()
+      .subscribe((data: Result<Order>) => {
+        this.orders = data.items;
+      });
+
   }
 
  

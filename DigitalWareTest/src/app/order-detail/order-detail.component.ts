@@ -2,6 +2,8 @@ import { Component, Input, AfterViewInit } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import CustomStore from 'devextreme/data/custom_store';
 import { OrderDetailService } from './order-detail.service';
+import { OrderList } from './OrderList';
+import { Result } from '../common/Result';
 
 @Component({
   selector: 'app-order-detail',
@@ -41,13 +43,17 @@ export class OrderDetailComponent implements AfterViewInit {
 
   async ngAfterViewInit() {
 
-    this.ordersDetails = await this.orderDetailService.get(this.OrderId);
+    await this.orderDetailService.get(this.OrderId)
+      .subscribe((data: Result<OrderList>) => {
+        this.ordersDetails = data.items;
+      });
+
     this.products = await this.orderDetailService.getProduct();
 
     //Configuración del dataSource
     this.dataSource = new CustomStore({
       key: 'productID',
-      load: () => this.ordersDetails,
+      load: (loadOptions: any) => this.ordersDetails,
       insert: (values) => this.orderDetailService.sendRequest('POST', {
         values: JSON.stringify(values),
       }, this.OrderId),

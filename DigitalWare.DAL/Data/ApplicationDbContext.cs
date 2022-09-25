@@ -1,9 +1,9 @@
-﻿using DigitalWareTestAPI.Data.Models;
+﻿using DigitalWare.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace DigitalWareTestAPI.Data
+namespace DigitalWare.Domain.Data
 {
-    public class ApplicationDbContext: DbContext
+    public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext() : base()
         {
@@ -21,7 +21,7 @@ namespace DigitalWareTestAPI.Data
             //Set EntityTypeConfiguration classes
 
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
-           
+
         }
 
         public DbSet<Customer> Customer => Set<Customer>();

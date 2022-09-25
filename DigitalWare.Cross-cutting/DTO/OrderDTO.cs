@@ -1,4 +1,4 @@
-﻿namespace DigitalWareTestAPI.DTO
+﻿namespace DigitalWare.Cross_cutting.DTO
 {
     public class OrderDTO
     {
