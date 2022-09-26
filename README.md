@@ -30,14 +30,7 @@ Prueba técnica DigitalWare
 
 ```
 
-#Attached files
-
-App video working
-```
-Video App Test.mp4
-```
-
-#Attached files
+# Attached files
 
 App video working
 ```
