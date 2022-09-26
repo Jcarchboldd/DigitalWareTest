@@ -15,6 +15,7 @@ Prueba técnica DigitalWare
             ├───Controllers
             └───DTO
             |     └───Profiles
+            |
             ├───DAL
             │   └───Repositories
             │   
@@ -23,6 +24,7 @@ Prueba técnica DigitalWare
             │       ├───Data
             │       ├───ModelConfigurations
             │       └───Models
+            |
             └───Cross-Cutting
                 ├───Common
                 └───DTO
