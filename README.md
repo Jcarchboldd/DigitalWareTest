@@ -29,3 +29,27 @@ Prueba técnica DigitalWare
                 └───DTO
 
 ```
+
+#Attached files
+
+App video working
+```
+Video App Test.mp4
+```
+
+#Attached files
+
+App video working
+```
+Video App Test.mp4
+```
+
+Database script:
+```
+DBDigitalWareTest.sql
+```
+
+Query script:
+```
+SQLQueryDigitalWare.sql
+```
