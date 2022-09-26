@@ -13,7 +13,7 @@ Prueba técnica DigitalWare
         └───API
             ├───Properties
             ├───Controllers
-            └───DTO
+            ├───DTO
             |     └───Profiles
             |
             ├───DAL
