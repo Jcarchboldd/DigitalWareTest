@@ -1,0 +1,24 @@
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.Cross-cutting\bin\Debug\net6.0\DigitalWare.Cross-cutting.deps.json
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.Cross-cutting\bin\Debug\net6.0\DigitalWare.Cross-cutting.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.Cross-cutting\bin\Debug\net6.0\DigitalWare.Cross-cutting.pdb
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.Cross-cutting\obj\Debug\net6.0\DigitalWare.Cross-cutting.csproj.AssemblyReference.cache
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.Cross-cutting\obj\Debug\net6.0\DigitalWare.Cross-cutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.Cross-cutting\obj\Debug\net6.0\DigitalWare.Cross-cutting.AssemblyInfoInputs.cache
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.Cross-cutting\obj\Debug\net6.0\DigitalWare.Cross-cutting.AssemblyInfo.cs
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.Cross-cutting\obj\Debug\net6.0\DigitalWare.Cross-cutting.csproj.CoreCompileInputs.cache
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.Cross-cutting\obj\Debug\net6.0\DigitalWare.Cross-cutting.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.Cross-cutting\obj\Debug\net6.0\refint\DigitalWare.Cross-cutting.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.Cross-cutting\obj\Debug\net6.0\DigitalWare.Cross-cutting.pdb
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.Cross-cutting\obj\Debug\net6.0\ref\DigitalWare.Cross-cutting.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.Cross-cutting\bin\Debug\net6.0\DigitalWare.Cross-cutting.deps.json
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.Cross-cutting\bin\Debug\net6.0\DigitalWare.Cross-cutting.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.Cross-cutting\bin\Debug\net6.0\DigitalWare.Cross-cutting.pdb
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.Cross-cutting\obj\Debug\net6.0\DigitalWare.Cross-cutting.csproj.AssemblyReference.cache
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.Cross-cutting\obj\Debug\net6.0\DigitalWare.Cross-cutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.Cross-cutting\obj\Debug\net6.0\DigitalWare.Cross-cutting.AssemblyInfoInputs.cache
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.Cross-cutting\obj\Debug\net6.0\DigitalWare.Cross-cutting.AssemblyInfo.cs
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.Cross-cutting\obj\Debug\net6.0\DigitalWare.Cross-cutting.csproj.CoreCompileInputs.cache
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.Cross-cutting\obj\Debug\net6.0\DigitalWare.Cross-cutting.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.Cross-cutting\obj\Debug\net6.0\refint\DigitalWare.Cross-cutting.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.Cross-cutting\obj\Debug\net6.0\DigitalWare.Cross-cutting.pdb
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.Cross-cutting\obj\Debug\net6.0\ref\DigitalWare.Cross-cutting.dll

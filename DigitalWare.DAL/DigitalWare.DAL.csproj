@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DigitalWare.Cross-cutting\DigitalWare.Cross-cutting.csproj" />
-    <ProjectReference Include="..\DigitalWare.DAL\DigitalWare.Domain.csproj" />
+    <ProjectReference Include="..\DigitalWare.Domain\DigitalWare.Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "8qVRUmb3cbz/TgWq8k7XiFJsmouRoYllFABt0WqAYh/tkTZxKPiPbyN9z60kogORx+zm2MnIHVcCC2tGDM4OCA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jair.archbold\\OneDrive - AVANADE CAPITAL HOLDING\\Escritorio\\Test\\DigitalWareTest\\DigitalWare.Cross-cutting\\DigitalWare.Cross-cutting.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jair.archbold\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\jair.archbold\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

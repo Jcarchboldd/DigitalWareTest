@@ -20,7 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DigitalWare.BAL\DigitalWare.DAL.csproj" />
+    <ProjectReference Include="..\DigitalWare.DAL\DigitalWare.DAL.csproj" />
+    <ProjectReference Include="..\DigitalWare.Domain\DigitalWare.Domain.csproj" />
   </ItemGroup>
 
 </Project>

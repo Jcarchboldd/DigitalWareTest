@@ -1,0 +1,140 @@
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\appsettings.json
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\DigitalWareTestAPI.exe
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\DigitalWareTestAPI.deps.json
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\DigitalWareTestAPI.runtimeconfig.json
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\DigitalWareTestAPI.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\DigitalWareTestAPI.pdb
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\DevExtreme.AspNet.Data.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Humanizer.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\DigitalWare.Cross-cutting.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\DigitalWare.DAL.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\DigitalWare.Domain.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\DigitalWare.DAL.pdb
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\DigitalWare.Cross-cutting.pdb
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\DigitalWare.Domain.pdb
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\DigitalWareTestAPI.csproj.AssemblyReference.cache
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\DigitalWareTestAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\DigitalWareTestAPI.AssemblyInfoInputs.cache
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\DigitalWareTestAPI.AssemblyInfo.cs
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\DigitalWareTestAPI.csproj.CoreCompileInputs.cache
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\DigitalWareTestAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\DigitalWareTestAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\scopedcss\bundle\DigitalWareTestAPI.styles.css
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\DigitalWareTestAPI.csproj.CopyComplete
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\DigitalWareTestAPI.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\refint\DigitalWareTestAPI.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\DigitalWareTestAPI.pdb
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\DigitalWareTestAPI.genruntimeconfig.cache
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\ref\DigitalWareTestAPI.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\appsettings.json
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\DigitalWareTestAPI.exe
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\DigitalWareTestAPI.deps.json
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\DigitalWareTestAPI.runtimeconfig.json
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\DigitalWareTestAPI.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\DigitalWareTestAPI.pdb
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\DevExtreme.AspNet.Data.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Humanizer.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\DigitalWare.Cross-cutting.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\DigitalWare.DAL.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\DigitalWare.Domain.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\DigitalWare.DAL.pdb
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\DigitalWare.Domain.pdb
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\bin\Debug\net6.0\DigitalWare.Cross-cutting.pdb
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\DigitalWareTestAPI.csproj.AssemblyReference.cache
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\DigitalWareTestAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\DigitalWareTestAPI.AssemblyInfoInputs.cache
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\DigitalWareTestAPI.AssemblyInfo.cs
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\DigitalWareTestAPI.csproj.CoreCompileInputs.cache
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\DigitalWareTestAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\DigitalWareTestAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\scopedcss\bundle\DigitalWareTestAPI.styles.css
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\DigitalWareTestAPI.csproj.CopyComplete
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\DigitalWareTestAPI.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\refint\DigitalWareTestAPI.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\DigitalWareTestAPI.pdb
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\DigitalWareTestAPI.genruntimeconfig.cache
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWareTestAPI\obj\Debug\net6.0\ref\DigitalWareTestAPI.dll

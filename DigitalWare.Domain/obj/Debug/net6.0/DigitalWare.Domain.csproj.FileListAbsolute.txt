@@ -1,0 +1,30 @@
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.Domain\bin\Debug\net6.0\DigitalWare.Domain.deps.json
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.Domain\bin\Debug\net6.0\DigitalWare.Domain.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.Domain\bin\Debug\net6.0\DigitalWare.Domain.pdb
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.Domain\bin\Debug\net6.0\DigitalWare.Cross-cutting.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.Domain\bin\Debug\net6.0\DigitalWare.Cross-cutting.pdb
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.Domain\obj\Debug\net6.0\DigitalWare.Domain.csproj.AssemblyReference.cache
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.Domain\obj\Debug\net6.0\DigitalWare.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.Domain\obj\Debug\net6.0\DigitalWare.Domain.AssemblyInfoInputs.cache
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.Domain\obj\Debug\net6.0\DigitalWare.Domain.AssemblyInfo.cs
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.Domain\obj\Debug\net6.0\DigitalWare.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.Domain\obj\Debug\net6.0\DigitalWare.Domain.csproj.CopyComplete
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.Domain\obj\Debug\net6.0\DigitalWare.Domain.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.Domain\obj\Debug\net6.0\refint\DigitalWare.Domain.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.Domain\obj\Debug\net6.0\DigitalWare.Domain.pdb
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.Domain\obj\Debug\net6.0\ref\DigitalWare.Domain.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.Domain\bin\Debug\net6.0\DigitalWare.Domain.deps.json
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.Domain\bin\Debug\net6.0\DigitalWare.Domain.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.Domain\bin\Debug\net6.0\DigitalWare.Domain.pdb
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.Domain\bin\Debug\net6.0\DigitalWare.Cross-cutting.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.Domain\bin\Debug\net6.0\DigitalWare.Cross-cutting.pdb
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.Domain\obj\Debug\net6.0\DigitalWare.Domain.csproj.AssemblyReference.cache
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.Domain\obj\Debug\net6.0\DigitalWare.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.Domain\obj\Debug\net6.0\DigitalWare.Domain.AssemblyInfoInputs.cache
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.Domain\obj\Debug\net6.0\DigitalWare.Domain.AssemblyInfo.cs
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.Domain\obj\Debug\net6.0\DigitalWare.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.Domain\obj\Debug\net6.0\DigitalWare.Domain.csproj.CopyComplete
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.Domain\obj\Debug\net6.0\DigitalWare.Domain.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.Domain\obj\Debug\net6.0\refint\DigitalWare.Domain.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.Domain\obj\Debug\net6.0\DigitalWare.Domain.pdb
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.Domain\obj\Debug\net6.0\ref\DigitalWare.Domain.dll

@@ -1,0 +1,34 @@
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.DAL\bin\Debug\net6.0\DigitalWare.DAL.deps.json
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.DAL\bin\Debug\net6.0\DigitalWare.DAL.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.DAL\bin\Debug\net6.0\DigitalWare.DAL.pdb
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.DAL\bin\Debug\net6.0\DigitalWare.Cross-cutting.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.DAL\bin\Debug\net6.0\DigitalWare.Domain.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.DAL\bin\Debug\net6.0\DigitalWare.Cross-cutting.pdb
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.DAL\bin\Debug\net6.0\DigitalWare.Domain.pdb
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.DAL\obj\Debug\net6.0\DigitalWare.DAL.csproj.AssemblyReference.cache
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.DAL\obj\Debug\net6.0\DigitalWare.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.DAL\obj\Debug\net6.0\DigitalWare.DAL.AssemblyInfoInputs.cache
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.DAL\obj\Debug\net6.0\DigitalWare.DAL.AssemblyInfo.cs
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.DAL\obj\Debug\net6.0\DigitalWare.DAL.csproj.CoreCompileInputs.cache
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.DAL\obj\Debug\net6.0\DigitalWare.DAL.csproj.CopyComplete
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.DAL\obj\Debug\net6.0\DigitalWare.DAL.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.DAL\obj\Debug\net6.0\refint\DigitalWare.DAL.dll
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.DAL\obj\Debug\net6.0\DigitalWare.DAL.pdb
+C:\Users\jair.archbold\source\repos\DigitalWareTest\DigitalWare.DAL\obj\Debug\net6.0\ref\DigitalWare.DAL.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.DAL\bin\Debug\net6.0\DigitalWare.DAL.deps.json
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.DAL\bin\Debug\net6.0\DigitalWare.DAL.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.DAL\bin\Debug\net6.0\DigitalWare.DAL.pdb
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.DAL\bin\Debug\net6.0\DigitalWare.Cross-cutting.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.DAL\bin\Debug\net6.0\DigitalWare.Domain.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.DAL\bin\Debug\net6.0\DigitalWare.Cross-cutting.pdb
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.DAL\bin\Debug\net6.0\DigitalWare.Domain.pdb
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.DAL\obj\Debug\net6.0\DigitalWare.DAL.csproj.AssemblyReference.cache
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.DAL\obj\Debug\net6.0\DigitalWare.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.DAL\obj\Debug\net6.0\DigitalWare.DAL.AssemblyInfoInputs.cache
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.DAL\obj\Debug\net6.0\DigitalWare.DAL.AssemblyInfo.cs
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.DAL\obj\Debug\net6.0\DigitalWare.DAL.csproj.CoreCompileInputs.cache
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.DAL\obj\Debug\net6.0\DigitalWare.DAL.csproj.CopyComplete
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.DAL\obj\Debug\net6.0\DigitalWare.DAL.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.DAL\obj\Debug\net6.0\refint\DigitalWare.DAL.dll
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.DAL\obj\Debug\net6.0\DigitalWare.DAL.pdb
+C:\Users\jair.archbold\OneDrive - AVANADE CAPITAL HOLDING\Escritorio\Test\DigitalWareTest\DigitalWare.DAL\obj\Debug\net6.0\ref\DigitalWare.DAL.dll

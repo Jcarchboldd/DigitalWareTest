@@ -1,9 +1,9 @@
-import { Component, Input, AfterViewInit, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import CustomStore from 'devextreme/data/custom_store';
 import { OrderDetailService } from './Service/order-detail.service';
 import { OrderList } from './Model/OrderList';
 import { Result } from '../common/Result';
-import { ProductList } from './ProductList';
+import { ProductList } from './Model/ProductList';
 
 
 @Component({
@@ -11,7 +11,7 @@ import { ProductList } from './ProductList';
   templateUrl: './order-detail.component.html',
   styleUrls: ['./order-detail.component.css']
 })
-export class OrderDetailComponent implements AfterViewInit {
+export class OrderDetailComponent implements OnInit {
   @Input() OrderId!: number;
   ordersDetails: OrderList[] = [];
   dataSource: any;
@@ -22,7 +22,6 @@ export class OrderDetailComponent implements AfterViewInit {
 
   refreshModes: string[];
   refreshMode: string;
-  requests: string[] = [];
 
   constructor(private orderDetailService: OrderDetailService) {
     this.refreshMode = 'reshape';
@@ -37,7 +36,7 @@ export class OrderDetailComponent implements AfterViewInit {
     }
   }
 
-  ngAfterViewInit() {
+  ngOnInit() {
 
     this.refresh();
 

@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿
+using AutoMapper;
 using DigitalWare.Cross_cutting.Common;
 using DigitalWare.Cross_cutting.DTO;
 using DigitalWare.Domain.Contrats;
@@ -8,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DigitalWare.DAL.Repositories
 {
-    public class EFDetailRepository: IDetailsRepository<DetailsDTO>
+    public class EFDetailRepository : IDetailsRepository<DetailsDTO>
     {
         private readonly ApplicationDbContext _context;
         private readonly IMapper _mapper;
@@ -37,7 +38,7 @@ namespace DigitalWare.DAL.Repositories
 
         public async Task<MessageResult<DetailsDTO>> PostDetail(int id, DetailsDTO order)
         {
-            
+
             try
             {
                 order.OrderID = id;
