@@ -8,7 +8,7 @@ Prueba técnica DigitalWare
 
 # Layered architecture in ASP.NET Core 6 Web API
 
-´´´
+```
 └───Backend
         └───API
             ├───Properties
@@ -28,4 +28,4 @@ Prueba técnica DigitalWare
                 ├───Common
                 └───DTO
 
-´´´
+```
