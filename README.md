@@ -34,7 +34,7 @@ Prueba técnica DigitalWare
 
 App video working
 ```
-Video App Test.mp4
+Video_App_Test.mp4
 ```
 
 Database script:
